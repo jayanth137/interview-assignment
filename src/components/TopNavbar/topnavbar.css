@@ -1,0 +1,47 @@
+.toolbarContainer {
+  background-color: var(--primary-color);
+  justify-content: space-between;
+  display: flex;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #e5e5e5;
+}
+.header {
+  color: var(--secondary-color);
+  position: relative;
+  left: 20px;
+  margin-bottom: 40px;
+}
+.TopLeft {
+  display: flex;
+  gap: 10px;
+  padding: 10px;
+}
+.SearchIconWrapper {
+  display: flex;
+  border: 1px solid #e5e5e5;
+  border-radius: 5px;
+  width: calc(100%-220px);
+  position: relative;
+}
+.SearchIcon {
+  color: #e5e5e5;
+  align-self: center;
+  padding: 5px;
+}
+.InputContainer {
+  border: none;
+  outline: none;
+  width: 300px;
+}
+.ButtonContainer {
+  display: flex;
+}
+.Button {
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+  align-items: center;
+  display: flex;
+  gap: 10px;
+  border-radius: 10px;
+  padding: 5px 20px;
+}

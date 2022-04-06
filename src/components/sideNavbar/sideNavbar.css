@@ -1,0 +1,32 @@
+.sidebarContainer {
+  background-color: var(--secondary-color);
+  position: fixed;
+  display: flex;
+  height: 115vh;
+  width: 66px;
+  left: 0px;
+  top: -12px;
+  justify-items: center;
+  align-items: center;
+}
+.totalIcons {
+  flex-direction: column;
+  margin-bottom: 100px;
+  padding: 20px 0;
+}
+.iconContainer {
+  height: 5vh;
+  width: 5vh;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  color: white;
+  order: 5;
+  padding: 10px;
+  margin: 5px;
+}
+.icon {
+  transform: scale(1.8);
+  margin: 20px;
+  padding: 10px;
+}

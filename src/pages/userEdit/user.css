@@ -1,0 +1,80 @@
+.userSearchIconWrapper {
+  position: absolute;
+  display: flex;
+  height: 35px;
+  width: 250px;
+  left: 90px;
+  top: 290px;
+  border-radius: 6px;
+
+  /* White */
+
+  background: #ffffff;
+  /* Grey */
+
+  border: 1px solid black;
+  box-sizing: border-box;
+  border-radius: 6px;
+}
+.userSearchIcon {
+  color: #e5e5e5;
+  align-self: center;
+  padding: 5px;
+}
+.userInputContainer {
+  border: none;
+  outline: none;
+
+  font-family: "Sen";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  display: flex;
+  align-items: center;
+
+  /* dark grey */
+
+  color: #bcbcbc;
+}
+.userEditContainer {
+  position: relative;
+  height: 35px;
+  width: 250px;
+  left: 180px;
+  top: 30px;
+  border-radius: 6px;
+  margin: 20px 0;
+  padding: 2px;
+}
+.avatarIcon {
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  right: 300px;
+  top: 5px;
+
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.userName{
+  font-family: "Sen";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  display: flex;
+  align-items: center;
+  text-align: right;
+}
+.mobile {
+  font-family: 'Sen';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+text-align: right;
+}

@@ -1,0 +1,19 @@
+.dataGridContainer {
+  position: absolute;
+  left: 83px;
+  top: 300px;
+  width: 195vh;
+  height: 60vh;
+  /* White */
+
+  background: #ffffff;
+  box-shadow: 1px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 16px;
+}
+.dataGrid {
+  font-family: "Sen";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+}

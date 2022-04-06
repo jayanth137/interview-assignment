@@ -1,0 +1,58 @@
+.cardContainer {
+  display: flex;
+}
+.gridContainer {
+  flex-direction: column;
+}
+.cardBox {
+  position: relative;
+
+  width: 330px;
+  height: 150px;
+  left: 336px;
+  top: 0;
+  margin: 20px;
+  margin-left: 30px;
+
+  /* White */
+
+  background: #ffffff;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 16px;
+}
+.topContainer {
+  border-bottom: 1px solid #e5e5e5;
+}
+.header {
+  font-family: Sen;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 0em;
+  text-align: left;
+  position: relative;
+  margin-left: 20px;
+  top: 20px;
+}
+.number {
+  font-family: Sen;
+  font-size: 3rem;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0em;
+  text-align: left;
+  position: relative;
+  left: 20px;
+}
+
+.estContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 8px;
+  font-family: "Sen";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+}

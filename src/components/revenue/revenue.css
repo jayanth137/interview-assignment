@@ -1,0 +1,38 @@
+.boxContainer {
+  position: absolute;
+  display: flex;
+  width: 286px;
+  height: 129px;
+  left: 74px;
+  top: 88px;
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 16px;
+  margin-top: 40px;
+}
+.box {
+  flex-direction: row;
+  margin-left: 30px;
+}
+.revenueContainer {
+}
+.amountContainer {
+  position: relative;
+  bottom: 15px;
+}
+.totalRevenue {
+  font-family: "Sen", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  
+  line-height: 14px;
+}
+.amount {
+  font-family: Sen;
+  font-size: 2.4rem;
+  font-weight: 400;
+  line-height: 39px;
+  letter-spacing: 0em;
+  text-align: left;
+}
