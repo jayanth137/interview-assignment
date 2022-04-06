@@ -11,7 +11,6 @@ const options = ["view", "edit", "delete"];
 const ITEM_HEIGHT = 48;
 
 export default function MenuButton() {
-  const [data, setData] = useState(rows);
   const [anchorEl, setAnchorEl] = React.useState(null);
   const open = Boolean(anchorEl);
   const handleClick = (e) => {
