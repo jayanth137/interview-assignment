@@ -1,10 +1,9 @@
-import React, { useState } from "react";
+import React from "react";
 import IconButton from "@mui/material/IconButton";
 import Menu from "@mui/material/Menu";
 import MenuItem from "@mui/material/MenuItem";
 import MoreVertIcon from "@mui/icons-material/MoreVert";
 import { Link } from "react-router-dom";
-import { rows } from "../../Data";
 
 const options = ["view", "edit", "delete"];
 
@@ -19,7 +18,7 @@ export default function MenuButton() {
   const handleClose = () => {
     setAnchorEl(null);
   };
-  
+
   return (
     <div>
       <IconButton onClick={handleClick}>
